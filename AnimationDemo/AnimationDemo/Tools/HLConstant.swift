@@ -11,7 +11,11 @@ import UIKit
 class HLConstant: NSObject {
     static let shared = HLConstant()
     public let classSection = ["隐式动画","显式动画"]
-    public let classRow = [["",""],["PropertyAnimationViewController"]]
+    public let classRow = [["",""],
+                           ["PropertyAnimationViewController",
+                            "KeyframeAnimationsViewController",
+                            "VirtualPropertyAnimationViewController",
+                            "GroupsAnimationViewController"]]
 }
 
 

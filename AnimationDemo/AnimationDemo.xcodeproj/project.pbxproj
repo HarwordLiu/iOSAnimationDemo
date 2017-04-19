@@ -14,7 +14,10 @@
 		C5AC3DF21EA703F100D7FA05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AC3DF01EA703F100D7FA05 /* LaunchScreen.storyboard */; };
 		C5AC3DFB1EA704E900D7FA05 /* HLConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3DFA1EA704E900D7FA05 /* HLConstant.swift */; };
 		C5AC3DFF1EA70B5D00D7FA05 /* HLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3DFE1EA70B5D00D7FA05 /* HLBaseViewController.swift */; };
-		C5AC3E011EA70B9D00D7FA05 /* PropertyAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3E001EA70B9D00D7FA05 /* PropertyAnimationViewController.swift */; };
+		C5AC3E041EA732A500D7FA05 /* PropertyAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3E031EA732A500D7FA05 /* PropertyAnimationViewController.swift */; };
+		C5AC3E061EA7448E00D7FA05 /* KeyframeAnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3E051EA7448E00D7FA05 /* KeyframeAnimationsViewController.swift */; };
+		C5AC3E081EA7628000D7FA05 /* VirtualPropertyAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3E071EA7628000D7FA05 /* VirtualPropertyAnimationViewController.swift */; };
+		C5AC3E0A1EA768A200D7FA05 /* GroupsAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3E091EA768A200D7FA05 /* GroupsAnimationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +30,10 @@
 		C5AC3DF31EA703F100D7FA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5AC3DFA1EA704E900D7FA05 /* HLConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLConstant.swift; sourceTree = "<group>"; };
 		C5AC3DFE1EA70B5D00D7FA05 /* HLBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLBaseViewController.swift; sourceTree = "<group>"; };
-		C5AC3E001EA70B9D00D7FA05 /* PropertyAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyAnimationViewController.swift; sourceTree = "<group>"; };
+		C5AC3E031EA732A500D7FA05 /* PropertyAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyAnimationViewController.swift; sourceTree = "<group>"; };
+		C5AC3E051EA7448E00D7FA05 /* KeyframeAnimationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyframeAnimationsViewController.swift; sourceTree = "<group>"; };
+		C5AC3E071EA7628000D7FA05 /* VirtualPropertyAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualPropertyAnimationViewController.swift; sourceTree = "<group>"; };
+		C5AC3E091EA768A200D7FA05 /* GroupsAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsAnimationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,7 @@
 			children = (
 				C5AC3DFD1EA70B5D00D7FA05 /* Base */,
 				C5AC3DF91EA704E900D7FA05 /* Tools */,
-				C5AC3DFC1EA70B1300D7FA05 /* 显式动画 */,
+				C5AC3E021EA732A500D7FA05 /* ExplicitAnimations */,
 				C5AC3DE71EA703F100D7FA05 /* AppDelegate.swift */,
 				C5AC3DE91EA703F100D7FA05 /* ViewController.swift */,
 				C5AC3DEB1EA703F100D7FA05 /* Main.storyboard */,
@@ -81,20 +87,23 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		C5AC3DFC1EA70B1300D7FA05 /* 显式动画 */ = {
-			isa = PBXGroup;
-			children = (
-				C5AC3E001EA70B9D00D7FA05 /* PropertyAnimationViewController.swift */,
-			);
-			path = "显式动画";
-			sourceTree = "<group>";
-		};
 		C5AC3DFD1EA70B5D00D7FA05 /* Base */ = {
 			isa = PBXGroup;
 			children = (
 				C5AC3DFE1EA70B5D00D7FA05 /* HLBaseViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		C5AC3E021EA732A500D7FA05 /* ExplicitAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				C5AC3E031EA732A500D7FA05 /* PropertyAnimationViewController.swift */,
+				C5AC3E051EA7448E00D7FA05 /* KeyframeAnimationsViewController.swift */,
+				C5AC3E071EA7628000D7FA05 /* VirtualPropertyAnimationViewController.swift */,
+				C5AC3E091EA768A200D7FA05 /* GroupsAnimationViewController.swift */,
+			);
+			path = ExplicitAnimations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,8 +181,11 @@
 			files = (
 				C5AC3DEA1EA703F100D7FA05 /* ViewController.swift in Sources */,
 				C5AC3DE81EA703F100D7FA05 /* AppDelegate.swift in Sources */,
-				C5AC3E011EA70B9D00D7FA05 /* PropertyAnimationViewController.swift in Sources */,
+				C5AC3E041EA732A500D7FA05 /* PropertyAnimationViewController.swift in Sources */,
+				C5AC3E061EA7448E00D7FA05 /* KeyframeAnimationsViewController.swift in Sources */,
 				C5AC3DFB1EA704E900D7FA05 /* HLConstant.swift in Sources */,
+				C5AC3E0A1EA768A200D7FA05 /* GroupsAnimationViewController.swift in Sources */,
+				C5AC3E081EA7628000D7FA05 /* VirtualPropertyAnimationViewController.swift in Sources */,
 				C5AC3DFF1EA70B5D00D7FA05 /* HLBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +352,7 @@
 				C5AC3DF81EA703F100D7FA05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

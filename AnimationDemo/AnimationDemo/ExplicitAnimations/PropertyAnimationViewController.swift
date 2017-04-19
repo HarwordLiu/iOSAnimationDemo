@@ -8,6 +8,7 @@
 
 import UIKit
 
+// MARK: 属性动画
 class PropertyAnimationViewController: HLBaseViewController, CAAnimationDelegate {
     
     let colorLayer = CALayer()
@@ -28,9 +29,10 @@ class PropertyAnimationViewController: HLBaseViewController, CAAnimationDelegate
     override func tapLayerView(_ sender: UIButton) {
         let animation = CABasicAnimation()
         animation.keyPath = "backgroundColor"
+        animation.isRemovedOnCompletion = true
         animation.toValue = UIColor.randomColor.cgColor
         animation.delegate = self
-        animation.duration = 1.0
+        animation.duration = 5.0
         colorLayer.add(animation, forKey: nil)
     }
     

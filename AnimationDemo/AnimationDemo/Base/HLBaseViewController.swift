@@ -19,7 +19,8 @@ class HLBaseViewController: UIViewController {
     }
     
     func addLayerView() {
-        layerView.frame = CGRect(x: 50, y: 200, width: 200, height: 200)
+        layerView.frame = CGRect(x: 0, y: 0, width: 300, height: 300)
+        layerView.center = CGPoint(x: UIScreen.main.bounds.size.width / 2, y: UIScreen.main.bounds.size.height / 2)
         layerView.backgroundColor = UIColor.randomColor
         layerView.addTarget(self, action: #selector(tapLayerView(_:)), for: .touchUpInside)
         view.addSubview(layerView)
