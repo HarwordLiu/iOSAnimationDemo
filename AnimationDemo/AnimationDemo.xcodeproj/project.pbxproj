@@ -21,6 +21,7 @@
 		C5AC3E0C1EA76D6B00D7FA05 /* TransitionsAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3E0B1EA76D6B00D7FA05 /* TransitionsAnimationViewController.swift */; };
 		C5AC3E0E1EA780A800D7FA05 /* CustomTransitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3E0D1EA780A800D7FA05 /* CustomTransitionsViewController.swift */; };
 		C5AC3E111EA78AEF00D7FA05 /* ImplicitAnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3E101EA78AEF00D7FA05 /* ImplicitAnimationsViewController.swift */; };
+		C5AC3E131EA7933D00D7FA05 /* PresentationVersusModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3E121EA7933D00D7FA05 /* PresentationVersusModelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		C5AC3E0B1EA76D6B00D7FA05 /* TransitionsAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionsAnimationViewController.swift; sourceTree = "<group>"; };
 		C5AC3E0D1EA780A800D7FA05 /* CustomTransitionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTransitionsViewController.swift; sourceTree = "<group>"; };
 		C5AC3E101EA78AEF00D7FA05 /* ImplicitAnimationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationsViewController.swift; sourceTree = "<group>"; };
+		C5AC3E121EA7933D00D7FA05 /* PresentationVersusModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationVersusModelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				C5AC3E101EA78AEF00D7FA05 /* ImplicitAnimationsViewController.swift */,
+				C5AC3E121EA7933D00D7FA05 /* PresentationVersusModelViewController.swift */,
 			);
 			path = ImplicitAnimations;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			files = (
 				C5AC3DEA1EA703F100D7FA05 /* ViewController.swift in Sources */,
 				C5AC3DE81EA703F100D7FA05 /* AppDelegate.swift in Sources */,
+				C5AC3E131EA7933D00D7FA05 /* PresentationVersusModelViewController.swift in Sources */,
 				C5AC3E111EA78AEF00D7FA05 /* ImplicitAnimationsViewController.swift in Sources */,
 				C5AC3E041EA732A500D7FA05 /* PropertyAnimationViewController.swift in Sources */,
 				C5AC3E061EA7448E00D7FA05 /* KeyframeAnimationsViewController.swift in Sources */,
