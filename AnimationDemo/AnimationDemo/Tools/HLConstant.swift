@@ -15,7 +15,9 @@ class HLConstant: NSObject {
                            ["PropertyAnimationViewController",
                             "KeyframeAnimationsViewController",
                             "VirtualPropertyAnimationViewController",
-                            "GroupsAnimationViewController"]]
+                            "GroupsAnimationViewController",
+                            "TransitionsAnimationViewController",
+                            "CustomTransitionsViewController"]]
 }
 
 

@@ -39,20 +39,18 @@ class GroupsAnimationViewController: HLBaseViewController {
     
     override func tapLayerView(_ sender: UIButton) {
         let animation1 = CAKeyframeAnimation()
-        animation1.isRemovedOnCompletion = true
         animation1.keyPath = "position"
         animation1.path = bezierPath.cgPath
         animation1.rotationMode = kCAAnimationRotateAuto
         
         let animation2 = CABasicAnimation()
         animation2.keyPath = "backgroundColor"
-        animation2.isRemovedOnCompletion = true
         animation2.toValue = UIColor.randomColor.cgColor
         
         let animation = CAAnimationGroup()
         animation.animations = [animation1, animation2]
         animation.duration = 4.0
-        animation.isRemovedOnCompletion = true
+        
         
         colorLayer.add(animation, forKey: nil)
         

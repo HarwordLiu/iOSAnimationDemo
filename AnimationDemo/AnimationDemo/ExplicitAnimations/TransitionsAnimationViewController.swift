@@ -1,5 +1,5 @@
 //
-//  VirtualPropertyAnimationViewController.swift
+//  TransitionsAnimationViewController.swift
 //  AnimationDemo
 //
 //  Created by 刘浩 on 2017/4/19.
@@ -8,33 +8,35 @@
 
 import UIKit
 
-// MARK: 虚拟属性动画
-class VirtualPropertyAnimationViewController: HLBaseViewController {
-    let shipLayer = CALayer()
-    let animation = CABasicAnimation()
+// MARK: 转场动画
+class TransitionsAnimationViewController: HLBaseViewController {
+
+    let imageArrays = [UIImage(named: "plane"), UIImage(named: "plane2")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         addLayerView()
         configuration()
+
     }
     
     func configuration() {
-        
-        shipLayer.frame = CGRect(x: 0, y: 0, width: 128, height: 128)
-        shipLayer.position = CGPoint(x: 150, y: 150)
-        shipLayer.contents = UIImage(named: "plane")?.cgImage
-        layerView.layer.addSublayer(shipLayer)
-        
+        layerView.setImage(imageArrays[0], for: .normal)
     }
     
     override func tapLayerView(_ sender: UIButton) {
+        let transition = CATransition()
+        transition.type = kCATransitionPush
+        transition.subtype = kCATransitionFromTop
+        layerView.layer.add(transition, forKey: nil)
         
-        animation.keyPath = "transform.rotation.z"
-        animation.duration = 2.0
-        animation.byValue = Double.pi * 2
-        shipLayer.add(animation, forKey: nil)
+        let currentImage = layerView.image(for: .normal)
+        var index = imageArrays.index {
+            $0 == currentImage
+        }
         
+        index = (index! + 1) % imageArrays.count
+        layerView.setImage(imageArrays[index!], for: .normal)
     }
 
     override func didReceiveMemoryWarning() {

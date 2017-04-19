@@ -18,6 +18,8 @@
 		C5AC3E061EA7448E00D7FA05 /* KeyframeAnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3E051EA7448E00D7FA05 /* KeyframeAnimationsViewController.swift */; };
 		C5AC3E081EA7628000D7FA05 /* VirtualPropertyAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3E071EA7628000D7FA05 /* VirtualPropertyAnimationViewController.swift */; };
 		C5AC3E0A1EA768A200D7FA05 /* GroupsAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3E091EA768A200D7FA05 /* GroupsAnimationViewController.swift */; };
+		C5AC3E0C1EA76D6B00D7FA05 /* TransitionsAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3E0B1EA76D6B00D7FA05 /* TransitionsAnimationViewController.swift */; };
+		C5AC3E0E1EA780A800D7FA05 /* CustomTransitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3E0D1EA780A800D7FA05 /* CustomTransitionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		C5AC3E051EA7448E00D7FA05 /* KeyframeAnimationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyframeAnimationsViewController.swift; sourceTree = "<group>"; };
 		C5AC3E071EA7628000D7FA05 /* VirtualPropertyAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualPropertyAnimationViewController.swift; sourceTree = "<group>"; };
 		C5AC3E091EA768A200D7FA05 /* GroupsAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsAnimationViewController.swift; sourceTree = "<group>"; };
+		C5AC3E0B1EA76D6B00D7FA05 /* TransitionsAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionsAnimationViewController.swift; sourceTree = "<group>"; };
+		C5AC3E0D1EA780A800D7FA05 /* CustomTransitionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTransitionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				C5AC3E051EA7448E00D7FA05 /* KeyframeAnimationsViewController.swift */,
 				C5AC3E071EA7628000D7FA05 /* VirtualPropertyAnimationViewController.swift */,
 				C5AC3E091EA768A200D7FA05 /* GroupsAnimationViewController.swift */,
+				C5AC3E0B1EA76D6B00D7FA05 /* TransitionsAnimationViewController.swift */,
+				C5AC3E0D1EA780A800D7FA05 /* CustomTransitionsViewController.swift */,
 			);
 			path = ExplicitAnimations;
 			sourceTree = "<group>";
@@ -183,7 +189,9 @@
 				C5AC3DE81EA703F100D7FA05 /* AppDelegate.swift in Sources */,
 				C5AC3E041EA732A500D7FA05 /* PropertyAnimationViewController.swift in Sources */,
 				C5AC3E061EA7448E00D7FA05 /* KeyframeAnimationsViewController.swift in Sources */,
+				C5AC3E0E1EA780A800D7FA05 /* CustomTransitionsViewController.swift in Sources */,
 				C5AC3DFB1EA704E900D7FA05 /* HLConstant.swift in Sources */,
+				C5AC3E0C1EA76D6B00D7FA05 /* TransitionsAnimationViewController.swift in Sources */,
 				C5AC3E0A1EA768A200D7FA05 /* GroupsAnimationViewController.swift in Sources */,
 				C5AC3E081EA7628000D7FA05 /* VirtualPropertyAnimationViewController.swift in Sources */,
 				C5AC3DFF1EA70B5D00D7FA05 /* HLBaseViewController.swift in Sources */,

@@ -43,12 +43,12 @@ class KeyframeAnimationsViewController: HLBaseViewController {
     override func tapLayerView(_ sender: UIButton) {
         
         let animation = CAKeyframeAnimation()
-        animation.isRemovedOnCompletion = true
         animation.keyPath = "position"
         animation.duration = 5.0
         animation.path = bezierPath.cgPath
         animation.rotationMode = kCAAnimationRotateAuto
         shipLayer.add(animation, forKey: nil)
+        
     }
     
 

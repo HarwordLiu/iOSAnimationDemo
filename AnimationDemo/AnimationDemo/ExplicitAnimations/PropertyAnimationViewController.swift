@@ -29,7 +29,6 @@ class PropertyAnimationViewController: HLBaseViewController, CAAnimationDelegate
     override func tapLayerView(_ sender: UIButton) {
         let animation = CABasicAnimation()
         animation.keyPath = "backgroundColor"
-        animation.isRemovedOnCompletion = true
         animation.toValue = UIColor.randomColor.cgColor
         animation.delegate = self
         animation.duration = 5.0
