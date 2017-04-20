@@ -41,7 +41,7 @@ class KeyframeAnimationsViewController: HLBaseViewController {
     }
     
     override func tapLayerView(_ sender: UIButton) {
-        
+        shipLayer.removeAllAnimations()
         let animation = CAKeyframeAnimation()
         animation.keyPath = "position"
         animation.duration = 5.0

@@ -29,7 +29,7 @@ class VirtualPropertyAnimationViewController: HLBaseViewController {
     }
     
     override func tapLayerView(_ sender: UIButton) {
-        
+        shipLayer.removeAllAnimations()
         animation.keyPath = "transform.rotation.z"
         animation.duration = 2.0
         animation.byValue = Double.pi * 2

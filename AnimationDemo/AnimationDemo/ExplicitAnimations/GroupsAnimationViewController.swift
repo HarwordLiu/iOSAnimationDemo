@@ -38,6 +38,7 @@ class GroupsAnimationViewController: HLBaseViewController {
     }
     
     override func tapLayerView(_ sender: UIButton) {
+        colorLayer.removeAllAnimations()
         let animation1 = CAKeyframeAnimation()
         animation1.keyPath = "position"
         animation1.path = bezierPath.cgPath

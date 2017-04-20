@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C54E0BCB1EA88E1D00369C18 /* LayerTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E0BC91EA88E1D00369C18 /* LayerTimeViewController.swift */; };
+		C54E0BCC1EA88E1D00369C18 /* LayerTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C54E0BCA1EA88E1D00369C18 /* LayerTimeViewController.xib */; };
 		C5AC3DE81EA703F100D7FA05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3DE71EA703F100D7FA05 /* AppDelegate.swift */; };
 		C5AC3DEA1EA703F100D7FA05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC3DE91EA703F100D7FA05 /* ViewController.swift */; };
 		C5AC3DED1EA703F100D7FA05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AC3DEB1EA703F100D7FA05 /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C54E0BC91EA88E1D00369C18 /* LayerTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerTimeViewController.swift; sourceTree = "<group>"; };
+		C54E0BCA1EA88E1D00369C18 /* LayerTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerTimeViewController.xib; sourceTree = "<group>"; };
 		C5AC3DE41EA703F000D7FA05 /* AnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5AC3DE71EA703F100D7FA05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5AC3DE91EA703F100D7FA05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C54E0BC61EA88D9E00369C18 /* LayerTime */ = {
+			isa = PBXGroup;
+			children = (
+				C54E0BC91EA88E1D00369C18 /* LayerTimeViewController.swift */,
+				C54E0BCA1EA88E1D00369C18 /* LayerTimeViewController.xib */,
+			);
+			path = LayerTime;
+			sourceTree = "<group>";
+		};
 		C5AC3DDB1EA703F000D7FA05 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +91,7 @@
 				C5AC3DF91EA704E900D7FA05 /* Tools */,
 				C5AC3E021EA732A500D7FA05 /* ExplicitAnimations */,
 				C5AC3E0F1EA78AD400D7FA05 /* ImplicitAnimations */,
+				C54E0BC61EA88D9E00369C18 /* LayerTime */,
 				C5AC3DE71EA703F100D7FA05 /* AppDelegate.swift */,
 				C5AC3DE91EA703F100D7FA05 /* ViewController.swift */,
 				C5AC3DEB1EA703F100D7FA05 /* Main.storyboard */,
@@ -189,6 +203,7 @@
 				C5AC3DF21EA703F100D7FA05 /* LaunchScreen.storyboard in Resources */,
 				C5AC3DEF1EA703F100D7FA05 /* Assets.xcassets in Resources */,
 				C5AC3DED1EA703F100D7FA05 /* Main.storyboard in Resources */,
+				C54E0BCC1EA88E1D00369C18 /* LayerTimeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +220,7 @@
 				C5AC3E111EA78AEF00D7FA05 /* ImplicitAnimationsViewController.swift in Sources */,
 				C5AC3E041EA732A500D7FA05 /* PropertyAnimationViewController.swift in Sources */,
 				C5AC3E061EA7448E00D7FA05 /* KeyframeAnimationsViewController.swift in Sources */,
+				C54E0BCB1EA88E1D00369C18 /* LayerTimeViewController.swift in Sources */,
 				C5AC3E0E1EA780A800D7FA05 /* CustomTransitionsViewController.swift in Sources */,
 				C5AC3DFB1EA704E900D7FA05 /* HLConstant.swift in Sources */,
 				C5AC3E0C1EA76D6B00D7FA05 /* TransitionsAnimationViewController.swift in Sources */,
