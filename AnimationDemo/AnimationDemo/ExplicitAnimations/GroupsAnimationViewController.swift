@@ -27,7 +27,7 @@ class GroupsAnimationViewController: HLBaseViewController {
         
         pathLayer.path = bezierPath.cgPath
         pathLayer.fillColor = UIColor.randomColor.cgColor
-        pathLayer.strokeColor = UIColor.randomColor.cgColor
+        pathLayer.strokeColor = UIColor.clear.cgColor
         pathLayer.lineWidth = 3.0
         layerView.layer.addSublayer(pathLayer)
         

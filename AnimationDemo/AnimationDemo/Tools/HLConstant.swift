@@ -21,7 +21,8 @@ class HLConstant: NSObject {
                             "CustomTransitionsViewController"],
                            ["LayerTimeViewController",
                             "ManualAnimationViewController"],
-                           ["EaseingFunctionsViewController"]]
+                           ["EaseingFunctionsViewController",
+                            "CoustomFunctionsViewController"]]
 }
 
 
